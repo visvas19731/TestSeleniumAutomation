@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="runner.TC01_LoginPage">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUpClass"/>
+          <include name="LaunchApp"/>
+          <include name="runScenario"/>
+          <include name="setData"/>
+          <include name="stopReport"/>
+          <include name="tearDownClass"/>
+          <include name="report"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- runner.TC01_LoginPage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
